@@ -1,7 +1,7 @@
-name: "Analysis-of-Reliability"
+name: Analysis-of-Reliability
 output_dir: ../docs
 navbar:
-  title: "Analysis-of-Reliability"
+  title: Analysis-of-Reliability
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/Thirumasu/Analysis-of-Reliability
 output:
   workflowr::wflow_html:
     toc: yes
